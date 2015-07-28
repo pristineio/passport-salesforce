@@ -1,6 +1,6 @@
 {
   "name": "passport-salesforce",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Salesforce authentication strategy for Passport.",
   "keywords": [
     "salesforce",
@@ -27,6 +27,9 @@
   },
   "bugs": {
     "url": "git://github.com/pristineio/passport-salesforce/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "licenses": [
     {
