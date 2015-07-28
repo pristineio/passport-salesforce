@@ -14,17 +14,13 @@ Salesforce strategy for [Passport](http://passportjs.org/).
 
 #### Configure Strategy
 
-    passport.use(new OAuth2Strategy({
-        authorizationURL: 'https://www.example.com/oauth2/authorize',
-        tokenURL: 'https://www.example.com/oauth2/token',
-        clientID: EXAMPLE_CLIENT_ID,
-        clientSecret: EXAMPLE_CLIENT_SECRET,
-        callbackURL: "http://localhost:3000/auth/example/callback"
+    passport.use(new SalesforceStrategy({
+        clientID: CLIENT_ID,
+        clientSecret: CLIENT_SECRET,
+        callbackURL: "http://localhost:1234/salesforce/callback"
       },
       function(accessToken, refreshToken, profile, done) {
-        User.findOrCreate({ exampleId: profile.id }, function (err, user) {
-          return done(err, user);
-        });
+        done(null, {});
       }
     ));
 
