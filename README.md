@@ -1,4 +1,4 @@
-# passport-oauth2
+# passport-salesforce
 [![Quality](https://codeclimate.com/github/pristineio/passport-salesforce/badges/gpa.svg)](https://codeclimate.com/github/pristineio/passport-salesforce)
 [![Dependencies](https://david-dm.org/jaredhanson/passport-oauth2.svg)](https://david-dm.org/jaredhanson/passport-oauth2)
 
