@@ -4,7 +4,7 @@
 [![Dependencies](https://david-dm.org/jaredhanson/passport-oauth2.svg)](https://david-dm.org/jaredhanson/passport-oauth2)
 
 
-Salesforce strategy for [Passport](http://passportjs.org/).
+Salesforce authentication strategy for [Passport](http://passportjs.org/).
 
 ## Install
 
