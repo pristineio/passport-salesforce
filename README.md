@@ -42,9 +42,6 @@ application:
 
 ## Tests
 
-    $ npm install
-    $ npm test
-
 ## Credits
 
   - [Ben Shank](http://github.com/shanksauce)
