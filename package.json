@@ -1,6 +1,6 @@
 {
   "name": "passport-salesforce",
-  "version": "1.1.2",
+  "version": "0.0.1",
   "description": "Salesforce authentication strategy for Passport.",
   "keywords": [
     "salesforce",
