@@ -1,9 +1,5 @@
-build/
-reports/
-
-# Node.js
-node_modules/
+build
+reports
+node_modules
 npm-debug.log
-
-# Mac OS X
 .DS_Store
